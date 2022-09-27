@@ -10,3 +10,6 @@ This respository consists of two sections:
 
 2. Data Structures
     - Linked Lists
+
+3. Problems
+    - Number of Unsuccessful Attempts in Binary Search
