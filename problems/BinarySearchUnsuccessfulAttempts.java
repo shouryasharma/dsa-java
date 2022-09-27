@@ -32,13 +32,14 @@ class Source {
 
     public static void main(String args[]) throws Exception {
         Source bs = new Source();
-        Scanner scanner = new Scanner(System.in);
-        int size = scanner.nextInt();
-        int array[] = new int[size];
-        for (int i = 0; i < size; i++) {
-            array[i] = scanner.nextInt();
+        try (Scanner scanner = new Scanner(System.in)) {
+            int size = scanner.nextInt();
+            int array[] = new int[size];
+            for (int i = 0; i < size; i++) {
+                array[i] = scanner.nextInt();
+            }
+            int key = scanner.nextInt();
+            System.out.println(bs.getBinarySearchUnsuccessfulComparisonCount(array, key));
         }
-        int key = scanner.nextInt();
-        System.out.println(bs.getBinarySearchUnsuccessfulComparisonCount(array, key));
     }
 }
