@@ -2,9 +2,10 @@ package problems;
 
 import java.util.*;
 
-class Source {
+class BinarySearchUnsuccessfulAttempts {
     public int getBinarySearchUnsuccessfulComparisonCount(int[] inputArr, int key) {
         int start = 0, end = inputArr.length - 1, mid = 0, unsuccessfulAttempts = 0;
+        boolean ascending = inputArr[start] < inputArr[end];
 
         while (start <= end) {
             mid = start + (end - start) / 2;
@@ -12,7 +13,7 @@ class Source {
             if (inputArr[mid] == key)
                 return unsuccessfulAttempts;
 
-            if (inputArr[start] < inputArr[end]) {
+            if (ascending) {
                 unsuccessfulAttempts++;
                 if (key > inputArr[mid])
                     start = mid + 1;
@@ -31,7 +32,7 @@ class Source {
     }
 
     public static void main(String args[]) throws Exception {
-        Source bs = new Source();
+        BinarySearchUnsuccessfulAttempts bs = new BinarySearchUnsuccessfulAttempts();
         try (Scanner scanner = new Scanner(System.in)) {
             int size = scanner.nextInt();
             int array[] = new int[size];

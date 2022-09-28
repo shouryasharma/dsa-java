@@ -8,6 +8,7 @@ public class BinarySearch {
 	// Binary Search
 	static int binarySearch(int[] sortedArrayOfIntegers, int element) {
 		int start = 0, end = sortedArrayOfIntegers.length - 1, mid = 0, result = -1;
+		boolean ascending = sortedArrayOfIntegers[start] < sortedArrayOfIntegers[end];
 
 		while (start <= end) {
 			mid = start + (end - start) / 2;
@@ -16,7 +17,7 @@ public class BinarySearch {
 				result = mid;
 
 			// For Ascending or Descending
-			if (sortedArrayOfIntegers[start] < sortedArrayOfIntegers[end]) {
+			if (ascending) {
 				if (element < sortedArrayOfIntegers[mid])
 					end = mid - 1;
 				else
