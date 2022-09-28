@@ -7,14 +7,18 @@ public class BubbleSort {
 	// Bubble Sort
 	public int[] bubbleSort(int[] array) {
 		for (int i = 0; i < array.length; i++) {
+			int swap = 0;
 			for (int j = 1; j < (array.length - i); j++) {
 				int tempForSwap = 0;
 				if (array[j - 1] > array[j]) {
 					tempForSwap = array[j - 1];
 					array[j - 1] = array[j];
 					array[j] = tempForSwap;
+					swap = 1;
 				}
 			}
+			if (swap == 0)
+				break;
 		}
 		return array;
 	}
