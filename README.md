@@ -14,3 +14,5 @@ This respository consists of two sections:
 3. Problems
     - Number of Unsuccessful Attempts in Binary Search
     - Number of Unsuccessful Attempts in Linear Search
+    - Print the Fifth Element from the top of the Stack
+    - Reverse the String using a Stack
