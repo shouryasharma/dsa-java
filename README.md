@@ -16,3 +16,4 @@ This respository consists of two sections:
     - Number of Unsuccessful Attempts in Linear Search
     - Print the Fifth Element from the top of the Stack
     - Reverse the String using a Stack
+    - Matching parantheses
