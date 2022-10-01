@@ -5,7 +5,7 @@ public class MatchingParantheses {
         try {
             System.out.println(match("()())"));
             System.out.println(match("()()"));
-	    System.out.println(match("[]"));
+            System.out.println(match("[]"));
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
@@ -23,7 +23,7 @@ public class MatchingParantheses {
                     return false;
                 }
             } else {
-                throw new Exception("Invalid Character");
+                throw new Exception("Invalid Character: " + parantheses.charAt(i));
             }
         }
         if (count == 0) {
