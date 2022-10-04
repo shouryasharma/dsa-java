@@ -19,3 +19,4 @@ This respository consists of two sections:
     - Matching parantheses
     - Match Parentheses using Stacks
     - Match Multi Parantheses using Stack
+    - Match Distinct Numbers in one Sequence with another using Stacks
