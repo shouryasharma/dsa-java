@@ -1,8 +1,8 @@
-package problems;
+package stack;
 
 import java.util.Stack;
 
-public class StackMultiParanthesesMatch {
+public class MultiParanthesesMatch {
 	public static void main(String[] args) {
   	try {
    		System.out.println(match("(){({}())}"));

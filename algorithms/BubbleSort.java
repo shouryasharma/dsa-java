@@ -5,27 +5,28 @@ import java.util.Arrays;
 public class BubbleSort {
 
 	// Bubble Sort
-	public int[] bubbleSort(int[] array) {
-		for (int i = 0; i < array.length; i++) {
-			int swap = 0;
-			for (int j = 1; j < (array.length - i); j++) {
-				int tempForSwap = 0;
-				if (array[j - 1] > array[j]) {
-					tempForSwap = array[j - 1];
-					array[j - 1] = array[j];
-					array[j] = tempForSwap;
-					swap = 1;
+	public static void bubbleSort(int[] array) {
+		int temp;
+		boolean swap = false;
+		for (int i = array.length - 1; i > 0; i--) {
+			for (int j = 0; j < i; j++) {
+				if (array[j] > array[j + 1]) {
+					temp = array[j];
+					array[j] = array[j + 1];
+					array[j + 1] = temp;
+					swap = true;
 				}
 			}
-			if (swap == 0)
+			if (!swap)
 				break;
 		}
-		return array;
 	}
 
 	public static void main(String[] args) {
-		int[] array = { 8, 6, 5, 3, 6, 8, 9 };
-		BubbleSort bs = new BubbleSort();
-		System.out.println(Arrays.toString(bs.bubbleSort(array)));
+		// int[] array = { 8, 6, 5, 3, 6, 8, 9 };
+		int[] array = { 4, 2, 6, 5, 1, 3 };
+		// int[] array = { 1, 2, 3, 4 };
+		bubbleSort(array);
+		System.out.println(Arrays.toString(array));
 	}
 }

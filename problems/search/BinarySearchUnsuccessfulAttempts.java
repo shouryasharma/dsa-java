@@ -1,30 +1,25 @@
-package problems;
+package search;
 
 import java.util.*;
 
 class BinarySearchUnsuccessfulAttempts {
     public int getBinarySearchUnsuccessfulComparisonCount(int[] inputArr, int key) {
-        int start = 0, end = inputArr.length - 1, mid = 0, unsuccessfulAttempts = 0;
-        boolean ascending = inputArr[start] < inputArr[end];
+        int mid,
+                start = 0,
+                end = inputArr.length - 1,
+                unsuccessfulAttempts = 0;
 
         while (start <= end) {
-            mid = start + (end - start) / 2;
-
-            if (inputArr[mid] == key)
+            mid = (start + end) / 2;
+            if (key == inputArr[mid])
                 return unsuccessfulAttempts;
-
-            if (ascending) {
+            if (key < inputArr[mid]) {
+                end = mid - 1;
                 unsuccessfulAttempts++;
-                if (key > inputArr[mid])
-                    start = mid + 1;
-                else
-                    end = mid - 1;
-            } else {
+            }
+            if (key > inputArr[mid]) {
+                start = mid + 1;
                 unsuccessfulAttempts++;
-                if (key > inputArr[mid])
-                    start = mid - 1;
-                else
-                    end = mid + 1;
             }
         }
 

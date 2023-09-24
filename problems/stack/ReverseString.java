@@ -1,4 +1,4 @@
-package problems;
+package stack;
 
 import java.util.Scanner;
 import java.util.Stack;
@@ -20,7 +20,7 @@ import java.util.Stack;
 // Sample Output 2:
 // fedcba
 
-public class StackReverseString {
+public class ReverseString {
     public static void main(String arg[]) {
         Stack<Character> s = new Stack<Character>();
         String data;

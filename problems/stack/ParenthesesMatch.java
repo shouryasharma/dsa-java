@@ -1,8 +1,8 @@
-package problems;
+package stack;
 
 import java.util.*;
 
-public class StackParenthesesMatch {
+public class ParenthesesMatch {
 	private static Stack<Character> stack = new Stack<>();
 	public static void main(String[] args) {
 		try {

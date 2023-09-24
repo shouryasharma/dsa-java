@@ -17,12 +17,12 @@
 // S1 = 1 2 3
 // S2 = 1 2 4
 // Return: False because 3 is not present in S2
-package problems;
+package stack;
 
 import java.util.Scanner;
 import java.util.Stack;
 
-public class StackMatchDistinctNumbersInSequence {
+public class MatchDistinctNumbersInSequence {
     public static Boolean contains(Stack<Integer> sequence1, Stack<Integer> sequence2) {
         boolean result = false;
         try {

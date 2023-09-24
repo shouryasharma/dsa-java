@@ -1,4 +1,5 @@
-package problems;
+package sort;
+
 
 import java.util.*;
 

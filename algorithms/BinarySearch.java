@@ -1,9 +1,9 @@
 package algorithms;
 
 public class BinarySearch {
-	static int[] sortedArrayOfIntegers = { 1, 3, 4 };
+	static int[] sortedArrayOfIntegers = { 5, 6, 77, 88, 99 };
 	// static int[] sortedArrayOfIntegers = { 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };
-	static int element = 2;
+	static int element = 88;
 
 	// Binary Search
 	static int binarySearch(int[] sortedArrayOfIntegers, int element) {

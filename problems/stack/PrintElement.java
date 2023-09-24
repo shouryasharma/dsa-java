@@ -1,4 +1,4 @@
-package problems;
+package stack;
 
 import java.util.Scanner;
 import java.util.Stack;
@@ -24,7 +24,7 @@ import java.util.Stack;
 // Sample Output 2:
 // There are not enough elements in the stack
 
-public class StackPrintElement {
+public class PrintElement {
     public static void main(String[] args) {
         Stack<Integer> stack = new Stack<>();
         Scanner scan = new Scanner(System.in);
