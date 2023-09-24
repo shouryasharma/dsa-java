@@ -6,7 +6,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 /*
- * Leetcode #1207 Unique Number of Occurrences
+ * leetcode 1207. Unique Number of Occurrences
  */
 
 public class UniqueOccurrences {
