@@ -1,13 +1,16 @@
 **DATA STRUCTURES & ALGORITHMS - JAVA**
 
 1. Algorithms
-    - Binary Search
-    - Bubble Sort
-    - Frequency Counter Technique
-    - Reversing Array List (Dynamic Arrays)
+   1. Binary Search
+   2. Bubble Sort
+   3. Selection Sort
+   4. Insertion Sort
+   5. Frequency Counter Technique
+   6. Reversing Array List (Dynamic Arrays)
 
 2. Data Structures
-    - Linked Lists
+   1. Linked Lists
+   2. Stacks
 
 3. Problems
    1. Arrays
