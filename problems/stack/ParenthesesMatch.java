@@ -4,6 +4,7 @@ import java.util.*;
 
 public class ParenthesesMatch {
 	private static Stack<Character> stack = new Stack<>();
+
 	public static void main(String[] args) {
 		try {
 			System.out.println(match("(())"));
@@ -13,10 +14,11 @@ public class ParenthesesMatch {
 			System.out.println(e.getMessage());
 		}
 	}
+
 	public static boolean match(String paren) throws Exception {
-		for (int i=0; i<paren.length(); i++) {
+		for (int i = 0; i < paren.length(); i++) {
 			char c = paren.charAt(i);
-			if(c == '(') {
+			if (c == '(') {
 				stack.push(c);
 			} else if (c == ')') {
 				if (stack.empty()) {
@@ -32,6 +34,6 @@ public class ParenthesesMatch {
 			return true;
 		} else {
 			return false;
-		}				
+		}
 	}
 }

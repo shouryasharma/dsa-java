@@ -1,6 +1,4 @@
-#DATA STRUCTURES & ALGORITHMS - JAVA 
-
-This respository consists of two sections:
+**DATA STRUCTURES & ALGORITHMS - JAVA**
 
 1. Algorithms
     - Binary Search
@@ -12,11 +10,38 @@ This respository consists of two sections:
     - Linked Lists
 
 3. Problems
-    - Number of Unsuccessful Attempts in Binary Search
-    - Number of Unsuccessful Attempts in Linear Search
-    - Print the Fifth Element from the top of the Stack
-    - Reverse the String using a Stack
-    - Matching parantheses
-    - Match Parentheses using Stacks
-    - Match Multi Parantheses using Stack
-    - Match Distinct Numbers in one Sequence with another using Stacks
+   1. Arrays
+      1. FindMaxMin
+      2. MaxProfit
+   2. Bitwise
+      1. SingleNumber
+   3. HashMap
+      1. FindDuplicates
+      2. TwoSum
+   4. HashSet
+      1. ContainsDuplicate
+      2. LongestConsecutiveSequence
+      3. RemoveDuplicates
+      4. ReturnUniqueValues
+   5. Puzzles
+      1. ReverseStringVowels
+      2. UniqueOccurences
+   6. Search
+      1. BinarySearchUnsuccessfulAttempts
+      2. LinearSearchUnsuccessfulAttempts
+   7. Sort
+      1. BubbleSortSwaps
+      2. InsertionSort
+      3. MergeSortedStacks
+   8. Stack
+      1. BookReading
+      2. MatchDistinctNubersInSequence
+      3. MatchingParatheses
+      4. MultiParanthesesMatch
+      5. PalindromeNumber
+      6. ParanthesesMatch
+      7. PrintElement
+      8. ReverseElements
+      9. ReverseString
+      10. VersionSystem
+
