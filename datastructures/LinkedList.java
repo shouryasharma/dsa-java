@@ -2,13 +2,13 @@ package datastructures;
 
 public class LinkedList {
 
-    private Node head;
-    private Node tail;
-    private int length;
+    public Node head;
+    public Node tail;
+    public int length;
 
-    class Node {
-        int value;
-        Node next;
+    public class Node {
+        public int value;
+        public Node next;
 
         Node(int value) {
             this.value = value;
@@ -30,8 +30,9 @@ public class LinkedList {
         }
     }
 
-    public void getHead() {
-        System.out.println("Head: " + head.value);
+    public Node getHead() {
+        // System.out.println("Head: " + head.value);
+        return head;
     }
 
     public void getTail() {
