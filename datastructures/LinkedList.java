@@ -2,13 +2,13 @@ package datastructures;
 
 public class LinkedList {
 
-    public Node head;
-    public Node tail;
-    public int length;
+    Node head;
+    Node tail;
+    int length;
 
     public class Node {
-        public int value;
-        public Node next;
+        int value;
+        Node next;
 
         Node(int value) {
             this.value = value;
