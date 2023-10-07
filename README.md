@@ -7,6 +7,7 @@
    4. Insertion Sort
    5. Frequency Counter Technique
    6. Reversing Array List (Dynamic Arrays)
+   7. Binary Search Trees
 
 2. Data Structures
    1. Linked Lists
