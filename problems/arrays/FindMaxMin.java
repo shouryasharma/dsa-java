@@ -1,5 +1,5 @@
 package arrays;
-import java.util.*;
+import java.util.Arrays;
 
 public class FindMaxMin {
     static int[] findMaxMin(int[] arr) {
