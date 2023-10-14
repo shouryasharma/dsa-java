@@ -1,9 +1,5 @@
 package stack;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Stack;
-
 /*
  * Leetcode #9 Palindrome Number
  */
@@ -25,8 +21,7 @@ public class PalindromeNumber {
     }
 
     public static void main(String[] args) {
-        int x = 121;
-        // int x = 123;
-        System.out.println(isPalindrome(x));
+        System.out.println(isPalindrome(121));
+        System.out.println(isPalindrome(123));
     }
 }

@@ -5,9 +5,10 @@
    2. Bubble Sort
    3. Selection Sort
    4. Insertion Sort
-   5. Frequency Counter Technique
-   6. Reversing Array List (Dynamic Arrays)
-   7. Binary Search Trees
+   5. Cycle Sort
+   6. Frequency Counter Technique
+   7. Reversing Array List (Dynamic Arrays)
+   8. Binary Search Trees
       1. Depth First Search - preOrder
 
 2. Data Structures
@@ -22,26 +23,28 @@
       1. MergeSortedList
    3. Bitwise
       1. SingleNumber
-   4. HashMap
+   4. Dynamic Programming
+      1. Maximum Sub-Array
+   5. HashMap
       1. FindDuplicates
       2. TwoSum
       3. ValidAnagram
-   5. HashSet
+   6. HashSet
       1. ContainsDuplicate
       2. LongestConsecutiveSequence
       3. RemoveDuplicates
       4. ReturnUniqueValues
-   6. Puzzles
+   7. Puzzles
       1. ReverseStringVowels
       2. UniqueOccurences
-   7. Search
+   8. Search
       1. BinarySearchUnsuccessfulAttempts
       2. LinearSearchUnsuccessfulAttempts
-   8. Sort
+   9.  Sort
       1. BubbleSortSwaps
       2. InsertionSort
       3. MergeSortedStacks
-   9.  Stack
+   10. Stack
       1. BookReading
       2. MatchDistinctNubersInSequence
       3. MatchingParatheses
