@@ -1,7 +1,8 @@
 package arrays;
 import java.util.Arrays;
+import algorithms.MaxMin;
 
-public class FindMaxMin {
+public class MaxMinInArray {
     static int[] findMaxMin(int[] arr) {
         int max = arr[0], min = arr[0];
         for (int i = 1; i < arr.length; i++) {

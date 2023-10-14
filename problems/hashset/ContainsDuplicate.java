@@ -1,4 +1,5 @@
 package hashset;
+
 import java.util.HashSet;
 import java.util.Set;
 
@@ -16,9 +17,7 @@ public class ContainsDuplicate {
     }
 
     public static void main(String[] args) {
-        int[] duplicates = { 1, 2, 3, 1 };
-        int[] noDuplicates = { 1, 2, 3, 4 };
-
-        System.out.println(containsDuplicate(duplicates));
+        System.out.println(containsDuplicate(new int[] { 1, 2, 3, 1 }));
+        System.out.println(containsDuplicate(new int[] { 1, 2, 3, 4 }));
     }
 }

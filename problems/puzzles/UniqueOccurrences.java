@@ -5,10 +5,7 @@ import java.util.Map.Entry;
 import java.util.HashMap;
 import java.util.HashSet;
 
-/*
- * leetcode 1207. Unique Number of Occurrences
- */
-
+// leetcode 1207. Unique Number of Occurrences
 public class UniqueOccurrences {
     static boolean uniqueOccurrences(int[] arr) {
         HashMap<Integer, Integer> map = new HashMap<>();
@@ -33,9 +30,7 @@ public class UniqueOccurrences {
     }
 
     public static void main(String[] args) {
-        int[] arr1 = { 1, 2, 2, 1, 1, 3 };
-        int[] arr2 = { 1, 2 };
-
-        System.out.println(uniqueOccurrences(arr1));
+        System.out.println(uniqueOccurrences(new int[] { 1, 2 }));
+        System.out.println(uniqueOccurrences(new int[] { 1, 2, 2, 1, 1, 3 }));
     }
 }

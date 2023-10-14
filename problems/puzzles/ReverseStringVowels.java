@@ -3,9 +3,7 @@ package puzzles;
 import java.util.Set;
 import java.util.HashSet;
 
-/*
- * leetcode 345. Reverse Vowels of a String
- */
+// leetcode 345. Reverse Vowels of a String
 public class ReverseStringVowels {
     static String reverseVowels(String s) {
         // store all the vowels in a HashSet to lookup with O(1)
