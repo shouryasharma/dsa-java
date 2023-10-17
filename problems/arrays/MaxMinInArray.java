@@ -1,6 +1,5 @@
 package arrays;
 import java.util.Arrays;
-import algorithms.MaxMin;
 
 public class MaxMinInArray {
     static int[] findMaxMin(int[] arr) {

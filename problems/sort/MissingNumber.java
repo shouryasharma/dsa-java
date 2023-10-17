@@ -1,6 +1,6 @@
 package sort;
 
-// https://leetcode.com/problems/missing-number/
+// https://leetcode.com/problems/missing-number
 public class MissingNumber {
     public static int missingNumber(int[] nums) {
         int i = 0, temp = 0;
@@ -24,6 +24,7 @@ public class MissingNumber {
     }
 
     public static void main(String[] args) {
+        System.out.println(missingNumber(new int[] { 3, 4, -1, 1 }));
         System.out.println(missingNumber(new int[] { 3, 0, 1 }));
         System.out.println(missingNumber(new int[] { 0, 1 }));
         System.out.println(missingNumber(new int[] { 9, 6, 4, 2, 3, 5, 7, 0, 1 }));
