@@ -1,7 +1,46 @@
 package search;
 
 public class SearchRotatedSortedArray {
+
     static int search(int[] nums, int target) {
+        int start = 0, end = nums.length - 1, mid = 0;
+
+        // find the pivot
+        while (start < end) {
+            mid = start + (end - start) / 2;
+            if (nums[mid] > nums[end]) {
+                start = mid + 1;
+            } else {
+                end = mid;
+            }
+        }
+
+        int secondStart = start;
+        start = 0;
+        end = nums.length - 1;
+
+        if (target >= nums[secondStart] && target <= nums[end]) {
+            start = secondStart;
+        } else {
+            end = secondStart - 1;
+        }
+
+        // binary search
+        while (start <= end) {
+            mid = start + (end - start) / 2;
+            if (target == nums[mid])
+                return mid;
+            else if (target > nums[mid])
+                start = mid + 1;
+            else
+                end = mid - 1;
+
+        }
+
+        return -1;
+    }
+
+    static int searchOld(int[] nums, int target) {
         int start = 0, end = nums.length - 1, mid = 0;
         while (start <= end) {
             mid = start + (end - start) / 2;
