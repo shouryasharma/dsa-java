@@ -15,42 +15,41 @@
    1. Linked Lists
    2. Stacks
 
-3. Problems
-   1. Arrays
+3. Problems:Arrays
       1. FindMaxMin
       2. MaxProfit
       3. InsertInterval
-   2. LinkedList
+4. Problems:LinkedList
       1. MergeSortedList
-   3. Bitwise
+5. Problems:Bitwise
       1. SingleNumber
-   4. Dynamic Programming
+6. Problems:Dynamic Programming
       1. MaximumSubArray
-   5. HashMap
+7. Problems:HashMap
       1. FindDuplicates
       2. TwoSum
       3. ValidAnagram
-   6. HashSet
+8. Problems:HashSet
       1. ContainsDuplicate
       2. LongestConsecutiveSequence
       3. RemoveDuplicates
       4. ReturnUniqueValues
-   7. Puzzles
+9. Problems:Puzzles
       1. ReverseStringVowels
       2. UniqueOccurences
-   8. Recursion
+10. Problems:Recursion
       1. Factorial
-   9. Search
+11. Problems:Search
       1. SearchRotatedSortedArray
       2. BinarySearchUnsuccessfulAttempts
       3. LinearSearchUnsuccessfulAttempts
-   10. Sort
+12. Problems:Sorting
       1. BubbleSortSwaps
       2. FirstMissingPositiveNumber
       3. InsertionSort
       4. MergeSortedStacks
       5. MissingNumber
-   11. Stack
+13. Problems:Stack
       1. BookReading
       2. MatchDistinctNubersInSequence
       3. MatchingParatheses
@@ -61,7 +60,7 @@
       8. ReverseElements
       9. ReverseString
       10. VersionSystem
-  1.  Trees
+14. Problems:Trees
       1.  InvertBinaryTree
       2.  LowestCommonAncestor
 
