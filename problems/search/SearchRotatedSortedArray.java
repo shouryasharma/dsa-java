@@ -15,6 +15,7 @@ public class SearchRotatedSortedArray {
             }
         }
 
+        // pick side
         int secondStart = start;
         start = 0;
         end = nums.length - 1;
@@ -64,6 +65,7 @@ public class SearchRotatedSortedArray {
     }
 
     public static void main(String[] args) {
+        System.out.println(search(new int[] {1, 2, 3, 4, 5, 6, 7}, 2));
         System.out.println(search(new int[] { 3, 1 }, 1)); // 1
         System.out.println(search(new int[] { 4, 5, 6, 7, 8, 1, 2, 3 }, 8)); // 4
         System.out.println(search(new int[] { 4, 5, 6, 7, 0, 1, 2 }, 0)); // 4
