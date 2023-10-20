@@ -40,7 +40,7 @@
       2. UniqueOccurences
    8. Recursion
       1. Factorial
-   9.  Search
+   9. Search
       1. SearchRotatedSortedArray
       2. BinarySearchUnsuccessfulAttempts
       3. LinearSearchUnsuccessfulAttempts
